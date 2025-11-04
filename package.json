@@ -1,0 +1,15 @@
+{
+  "name": "revxr",
+  "version": "0.0.1",
+  "description": "Revival tooling for the dead.",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

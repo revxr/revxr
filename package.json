@@ -1,18 +1,14 @@
 {
   "name": "revxr",
-  "version": "0.1.0",
+  "version": "0.0.2",
   "description": "Revival tooling for the dead.",
   "private": true,
-  "type": "module",
-  "main": "src/index.ts",
   "engines": {
     "node": ">=20"
   },
   "scripts": {
     "build": "tsc --noEmit",
-    "lint": "tsc --noEmit",
-    "test": "jest --passWithNoTests",
-    "example": "node --loader ts-node/esm examples/run-example.ts"
+    "test": "jest"
   },
   "dependencies": {
     "zod": "^3.23.8"
@@ -22,7 +18,6 @@
     "@types/node": "^20.14.2",
     "jest": "^29.7.0",
     "ts-jest": "^29.1.4",
-    "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   }
 }
